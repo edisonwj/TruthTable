@@ -1,0 +1,47 @@
+// Conjunction - AND
+p & q
+p * q
+(p)(q)
+(p & q)
+p & T
+p & F
+T & p
+F & p
+(p & T)
+(p & F)
+// Disjunction - OR
+p | q
+p + q
+(p | q)
+// Implication
+p > q
+(p > q)
+// Backward Implication
+p < q
+(p < q)
+// NAND
+p ^ q
+(p ^ q)
+// NOR
+p v q
+(p v q)
+// XNOR - Equivalence
+p = q
+(p = q)
+// XOR
+p : q
+(p : q)
+// Negation
+~p
+!p
+~~p
+~~~p
+~(p)
+~~(p)
+~T
+~F
+~(T)
+~(F)
+// Beginning and trailing spaces
+  p & q
+  q

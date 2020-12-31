@@ -1,0 +1,57 @@
+// Conjunction - AND
+p & q
+p * q
+(p)(q)
+(p & q)
+// Disjunction - OR
+p | q
+p + q
+// Implication
+p > q
+// Backward Implication
+p < q
+// NAND
+p ^ q
+// NOR
+p v q
+// XNOR - Equivalence
+p = q
+// XOR
+p : q
+// Negation
+!p
+~p
+~~p
+~~~p
+~(p)
+// Tautologies
+(P : Q) = ((P & ~Q) | (~P & Q))
+ (p > (q  > r)) > ((p > q) > (p > r))
+ ((P > Q) & (Q > R)) > ~(~R & P)
+ (~P > Q) > ((P > Q) > Q)
+ ((P > Q) > P) > P
+ (P ^ P) ^ P
+ ~((P v Q) v (P | Q))
+ (~P v ~Q) > ~(P ^ Q)
+ ((((A > B) > (~C > ~D)) > C) > E) > ((E > A) > (D > A))
+ (P ^ (Q ^ R)) ^ ((P ^ (R ^ P)) ^ ((S ^ Q) ^ ((P ^ S) ^ P ^ S)))
+ (P ^ (Q ^ R)) ^ (((S ^ R) ^ ((P ^ S) ^ (P ^ S))) ^ (P ^ (P ^ Q)))
+((p0 > p1) & (p1 > p2)) > ~(~p2 & p0)
+(p0 ^ p0) ^ p0
+// Contradiction
+p&~p
+// Non-Tautologies
+p&~q
+(~x1 + x2)(x1 + ~x2)(x1 + x2)
+(~x1 + x2 + ~x4)(x2 + ~x3 + x4)(x1 + ~x2 + x3)(x1 + x2 + x3)
+(~x1 + x2 + ~x4 + ~x5)(x1 + x3 + ~x5 + ~x6)(x1 + x2 + x3 + x5)
+p0&p1&p2&p3&p4&p5&p6&p7&p8&p9&p10&p11
+// Ill formed formulas
+&p
+p q
+ft
+p & q &
+p && q
+p#q&
+(P|Q))
+p q # r)&
